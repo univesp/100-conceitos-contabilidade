@@ -1,0 +1,648 @@
+@media (min-width:270px) and (max-width: 399px){
+  div.bloco{
+    width: 117px;
+    height: 140px;
+   }
+
+   p.tituloDoBloco{
+    font-size: 17pt;
+   }
+
+   div.imgBloco{
+    width: 70px;
+    height: 70px;
+   }
+
+   div.rodapeBloco{
+    font-size: 16pt;
+   }
+
+   div.divImgCerto {
+    margin: -23px 0 0 98px;
+  }
+}
+
+@media (min-width:270px) and (max-width: 439px) {
+  .container{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+   }
+
+   section#topo{
+    flex-direction: column;
+   }
+
+   div.tituloEsubtitulo{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+   }
+
+   div.moedas{
+    justify-content: flex-end;
+    margin-right: 30px;
+   }
+
+   div.divTitulo{
+    margin-bottom: 30px;
+   }
+
+   #imgTitulo{
+    height: 180px;
+   }
+
+   p.subtitulo{
+    width: 270px;
+   }
+
+   #imgMoedas{
+    width: 150px;
+    height: auto;
+   }
+
+   .calculadora{
+    display: none;
+   }
+
+   p.pBlocoDePerguntas{
+    font-size: 17pt;
+   }
+
+   
+
+  div.fraseQtdCertas, p.fraseBlocosConcluidos, p.conceitosApresentados{
+    width: 80%;
+   }
+
+   .progress{
+    width: 300px;
+   }
+
+   section.btnReiniciarEImprimir {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button.btnReiniciar, button.btnImprimir {
+    font-size: 13pt;
+    width: 270px;
+  }
+
+  section.moedasEporquinho {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    padding-top: 150px;
+  }
+
+  img.imgMoedasEporquinho{
+    margin-right: 0;
+    width: 190px;
+    height: auto;
+  }
+
+  /* COOKIES */
+  #exampleModalCenter{
+    top: 5px;
+  }
+  
+  .modal-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cookies-container{
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-cookie{
+    margin: 0;
+    padding: 20px;
+  }
+
+  .buttons-cookie{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons-cookie > button{
+    width: 260px;
+    height: 55px;
+  }
+
+  .buttons-cookie > span{
+    display: none;
+  }
+}
+
+@media (min-width:400px) and (max-width: 439px) {
+  .container{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+   }
+
+   section#topo{
+    flex-direction: column;
+   }
+
+   div.tituloEsubtitulo{
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 50px 0px;
+   }
+
+   div.moedas{
+    justify-content: flex-end;
+    margin-right: 30px;
+   }
+
+   div.divTitulo{
+    margin-bottom: 30px;
+   }
+
+   #imgTitulo{
+    height: 210px;
+   }
+
+   p.subtitulo{
+    width: 300px;
+   }
+
+   #imgMoedas{
+    width: 200px;
+    height: auto;
+   }
+
+   .calculadora{
+    display: none;
+   }
+
+   div.bloco{
+    width: 150px;
+    height: 165px;
+   }
+
+   div.divImgCerto {
+    margin: -25px 0 0 130px;
+  }
+
+  div.fraseQtdCertas, p.fraseBlocosConcluidos, p.conceitosApresentados{
+    width: 80%;
+   }
+
+   .progress{
+    width: 350px;
+   }
+
+   section.btnReiniciarEImprimir {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button.btnReiniciar, button.btnImprimir {
+    font-size: 14pt;
+    width: 300px;
+  }
+
+  section.moedasEporquinho {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    padding-top: 200px;
+  }
+
+  img.imgMoedasEporquinho{
+    margin-right: 0;
+    width: 220px;
+    height: auto;
+  }
+
+  /* COOKIES */
+  .modal-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cookies-container{
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-cookie{
+    margin: 0;
+    padding: 20px;
+  }
+
+  .buttons-cookie{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons-cookie > button{
+    width: 260px;
+    height: 55px;
+  }
+
+  .buttons-cookie > span{
+    display: none;
+  }
+}
+
+@media (min-width:440px) and (max-width: 575px) {
+
+  .container{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+   }
+
+   section#topo{
+    flex-direction: column;
+   }
+
+   div.tituloEsubtitulo{
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+   }
+
+   div.moedas{
+    justify-content: flex-end;
+    margin-right: 30px;
+   }
+
+   div.divTitulo{
+    margin-bottom: 30px;
+   }
+
+   #imgTitulo{
+    height: 230px;
+   }
+
+   p.subtitulo{
+    width: 340px;
+   }
+
+   #imgMoedas{
+    width: 200px;
+    height: auto;
+   }
+
+   .calculadora{
+    display: none;
+   }
+
+   div.fraseQtdCertas, p.fraseBlocosConcluidos, p.conceitosApresentados{
+    width: 70%;
+   }
+
+   .progress{
+    width: 400px;
+   }
+
+   section.btnReiniciarEImprimir {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  section.moedasEporquinho {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    padding-top: 200px;
+  }
+
+  img.imgMoedasEporquinho{
+    margin-right: 0;
+    width: 220px;
+    height: auto;
+  }
+
+  /* COOKIES */
+  .modal-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cookies-container{
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-cookie{
+    margin: 0;
+    padding: 20px;
+  }
+
+  .buttons-cookie{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons-cookie > button{
+    width: 350px;
+    height: 55px;
+  }
+
+  .buttons-cookie > span{
+    display: none;
+  }
+    
+}
+
+/* Small devices (landscape phones, min 576px and max 768px)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #containerNav{
+    max-width: 540px;
+   }
+
+   section#topo{
+    flex-direction: column;
+   }
+
+   div.tituloEsubtitulo{
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 100px 0px;
+   }
+
+   div.moedas{
+    justify-content: flex-end;
+    margin-right: 30px;
+   }
+
+   #imgTitulo{
+    height: 240px;
+   }
+
+   p.subtitulo{
+    width: 370px;
+   }
+
+   #imgMoedas{
+    width: 200px;
+    height: auto;
+   }
+
+   .container{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+   }
+
+   .calculadora{
+    display: none;
+   }
+
+   section.btnReiniciarEImprimir {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  section.moedasEporquinho {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    padding-top: 200px;
+  }
+
+  img.imgMoedasEporquinho{
+    margin-right: 0;
+  }
+
+  /* COOKIES */
+  .modal-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cookies-container{
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-cookie{
+    margin: 0;
+    padding: 20px;
+  }
+
+  .buttons-cookie{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons-cookie > button{
+    width: 350px;
+    height: 55px;
+  }
+
+  .buttons-cookie > span{
+    display: none;
+  }
+
+}
+
+/* Medium devices (tablets, min 768px and max 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* 
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │    SECTION e DIVs TOPO - displayFlex com três imagens                       │
+  └─────────────────────────────────────────────────────────────────────────────┘
+ */
+
+ div.bloco{
+  width: 160px;
+  height: 160px;
+ }
+
+ p.tituloDoBloco{
+  font-size: 18pt;
+ }
+
+ div.rodapeBloco{
+  font-size: 18pt;
+ }
+
+ .container{
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+ }
+
+ #containerNav{
+  max-width: 720px;
+ }
+  
+  /* Divs Título e subtítulo */
+  div.tituloEsubtitulo {
+    margin: 30px 10px 100px 40px;
+  }
+  
+  /* Div Img Título */
+  div.divTitulo {
+    /* width: 471px; */
+    /* height: 120px; */
+    margin-bottom: 40px;
+  }
+  
+  /* Ilustração do título da página - 'Conceitos de Contabilidade' */
+  #imgTitulo {
+    width: 355px;
+    height: 89px;
+  }
+  
+  /* Parágrafo do subtítulo */
+  p.subtitulo {
+    width: 390px;
+  }
+  
+  /* Ilustração Calculadora */
+  img#imgCalculadora {
+    width: 218px;
+    height: 326px;
+  }
+  
+  /* Div ilustração moedas */
+  div.moedas {
+    display: none
+  }
+  
+  /*  Ilustração das moedas */
+  #imgMoedas {
+    display: none;
+  }
+  /*----------  END OF DIV TOPO - displayFlex com três imagens  ----------*/
+  
+    .botao-gabarito-container{
+      bottom: 30px;
+    }
+
+  div.qtdblocos {
+    width: 374px;
+  }
+
+  p.pIntroducaoAsQuestoes {
+    font-size: 12pt;
+  }
+
+  p.subtituloPerguntas {
+    font-size: 12pt;
+  }
+
+  div#conceitoArea {
+    width: 500px;
+  }
+  
+  div.textoBlocoConceitoCentro {
+    font-size:25pt;
+  }
+
+  .ilustra-questoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │     SECTION BOTÕES REINICIAR E IMPRIMIR                              │
+    └──────────────────────────────────────────────────────────────────────┘
+    */
+  
+  section.btnReiniciarEImprimir {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  button.btnReiniciar, button.btnImprimir {
+    font-size: 16pt;
+    width: 325px;
+    height: 50px;
+  }
+
+  button.btnReiniciar{
+    margin-top: 20px;
+  }
+  
+  /*
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │     SECTION MOEDAS E PORQUINHO                                       │
+    └──────────────────────────────────────────────────────────────────────┘
+    */
+  
+    section.moedasEporquinho {
+      display: flex;
+      justify-content: center;
+      margin-bottom: -30px;
+      padding-top: 200px;
+    }
+  
+    img.imgMoedasEporquinho {
+      width: 216px;
+      height: 110px;
+      margin-right: 0;
+    }
+  
+  
+  
+    /* PROGRESS BAR*/
+    .progress{
+      width: 450px;
+      height: 37px;
+    }
+  
+    .progress-bar{
+      background-color: #E2B77A;
+      width: 0%;
+    }
+  
+  
+    #exampleModalCenter{
+      top: 200px;
+    }
+  
+
+}
+
+/* Large devices (desktops, min 992px and max 1200px)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* Divs Título e subtítulo */
+  div.tituloEsubtitulo {
+    margin: 30px 10px 100px 40px;
+  }
+  
+  /* Div Img Título */
+  div.divTitulo {
+    /* width: 471px; */
+    /* height: 120px; */
+    margin-bottom: 40px;
+  }
+  
+  /* Ilustração do título da página - 'Conceitos de Contabilidade' */
+  #imgTitulo {
+    width: 355px;
+    height: 89px;
+  }
+  
+  /* Parágrafo do subtítulo */
+  p.subtitulo {
+    width: 390px;
+  }
+  
+  /* Ilustração Calculadora */
+  img#imgCalculadora {
+    width: 218px;
+    height: 326px;
+  }
+
+}

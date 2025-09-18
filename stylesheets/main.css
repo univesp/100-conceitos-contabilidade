@@ -1,0 +1,427 @@
+:root{
+  --uni-bg-roxo: #494672;
+}
+
+:root {
+  --uni-bg-creme: #F4DFCB;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #DFE6E8;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#conteudoPrincipal{
+  background-color: var(--uni-bg-roxo);
+}
+
+button{
+  cursor: pointer;
+}
+
+a, a:hover{
+  outline: none;
+  text-decoration: none;
+}
+
+
+
+
+/* COOKIES CONTAINER */
+
+#cookies-container{
+  background-color: #fff;
+  width: 100%;
+  border: 2px solid var(--uni-bg-roxo);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+}
+
+.text-cookie{
+  margin-left: 30px;
+}
+
+.text-cookie > p{
+  font-size: 16px;
+}
+
+.buttons-cookie{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttons-cookie > button{
+  outline: none;
+  border: 1;
+  width: 180px;
+  height: 40px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+#botao-recusar-cookies{
+  background-color: #fff;
+  color: var(--uni-bg-roxo);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid var(--uni-bg-roxo);
+}
+
+#botao-aceitar-cookies{
+  background-color: var(--uni-bg-roxo);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid var(--uni-bg-roxo);
+}
+
+.buttons-cookie > span{
+  width: 10%;
+}
+
+#cookies-container span > img{
+  width: 20px;
+  cursor: pointer;
+}
+/* END OF COOKIES CONTAINER */
+
+
+
+/* 
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │    SECTION e DIVs TOPO - displayFlex com três imagens                       │
+  └─────────────────────────────────────────────────────────────────────────────┘
+ */
+
+figure {
+  margin: 0;
+}
+
+/* section topo */
+section#topo {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Divs Título e subtítulo */
+div.tituloEsubtitulo {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 100px 40px;
+}
+
+/* Div Img Título */
+div.divTitulo {
+  /* width: 471px; */
+  /* height: 120px; */
+  margin-bottom: 40px;
+}
+
+/* Ilustração do título da página - 'Conceitos de Contabilidade' */
+#imgTitulo {
+  width: 471px;
+  height: 118px;
+}
+
+/* Parágrafo do subtítulo */
+p.subtitulo {
+  text-align: justify;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0;
+  width: 460px;
+}
+
+/* Ilustração Calculadora */
+img#imgCalculadora {
+  width: 313px;
+  height: 468px;
+}
+
+/* Div ilustração moedas */
+div.moedas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 75px;
+}
+
+/*  Ilustração das moedas */
+#imgMoedas {
+  width: 235px;
+  height: 114px;
+}
+/*----------  END OF DIV TOPO - displayFlex com três imagens  ----------*/
+
+
+/*
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │    SECTION CONTEUDO                                                  │
+  └──────────────────────────────────────────────────────────────────────┘
+  */
+  section.conteudo {
+    background-color: var(--uni-bg-creme);
+    margin-top: -75px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  p.pBlocoDePerguntas {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 19pt;
+    color: var(--uni-bg-roxo);
+    text-align: center;
+    padding-top: 95px;
+    margin: 0;
+  }
+  
+  
+  /*----------  div BLOCO DE PERGUNTAS  ----------*/
+
+  .disabled-link{
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .botao-gabarito-container{
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  /* parágrafo do Escolha um Bloco */
+  p.tituloDoBloco {
+    font-family: 'Open Sans';
+    font-size: 19pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+
+  /* Div container dos blocos de perguntas */
+  div.divBlocosDePerguntas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+  }
+  
+  /* bloco de cada pergunta */
+  div.bloco {
+    width: 170px;
+    height: 170px;
+    color: var(--uni-bg-roxo);
+    border-radius: 15px;
+    margin: 10px 20px 45px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /* ilustração de moeda com cifrão */
+  .cifrao {
+    width: 84px;
+    height: 84px;
+  }
+
+  
+  /* div da ilustração de moeda com cifrão */
+  div.imgBloco {
+    text-align: center;
+    width: 84px;
+    height: 84px;
+    margin: auto;
+  }
+
+  img.iconeCerto {
+    width: 26px;
+    height: 26px;
+    margin: -35px 0 0 0px;
+  }
+  
+  /* div da quantidade de questões de 0 a 10 */
+  div.rodapeBloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 19pt;
+    font-weight: 600;     /*! SEMIBOLD */
+  }
+
+  /* Rodapé do bloco - quantidade de questões concluídas */
+  div.qtdQuestoesRespondidas {
+    text-align: center;
+  }
+  /* div sinal de certo ou errado */
+  div.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div.divImgCerto {
+    width: 26px;
+    height: 26px;
+    margin: -20px 0 0 150px;
+  }
+
+
+/* 
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │      SECTION MEDIDORES DE QUANTIDADE DE QUESTÕES CERTAS                  │
+  └──────────────────────────────────────────────────────────────────────────┘
+ */
+
+section.medidorQtdCertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--uni-bg-creme);
+  width: 100%;
+  /* padding-bottom: 100px; */
+} 
+
+/* Frase quantidade de acertos */
+div.fraseQtdCertas, p.fraseBlocosConcluidos, p.conceitosApresentados {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--uni-bg-roxo);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+ /* DIV MEDIDOR */
+div.medidorBorder {
+  width: 380px;
+  height: 37px;
+  border: 3px solid var(--uni-bg-roxo);
+}
+
+div.tabelaMelhorar {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 17pt;
+  font-weight: 400;
+  color: var(--uni-bg-roxo);
+}
+
+/* 
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │      SECTION MEDIDOR DE BLOCOS CONCLUÍDOS                                │
+  └──────────────────────────────────────────────────────────────────────────┘
+ */
+
+div.fraseBlocosConcluidos {
+  /* margin-top: 40px; */
+}
+
+div.qtdblocos {
+  width: 374px;
+}
+
+/*
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │     SECTION BOTÕES REINICIAR E IMPRIMIR                              │
+  └──────────────────────────────────────────────────────────────────────┘
+  */
+
+section.btnReiniciarEImprimir {
+  background-color: var(--uni-bg-creme);
+  display: none;
+  justify-content: center;
+  width: 100%; 
+  padding-top: 70px;
+}
+
+button.btnReiniciar, button.btnImprimir {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 16pt;
+  color: #FFFFFF;
+  width: 350px;
+  height: 50px;
+  border: 2px solid #625690;
+  background-color: #625690;
+  outline:none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*
+button.btnReiniciar {
+  margin-right: 70px;
+}
+*/
+
+button:active {
+  background-color: #3A315F;
+  border: 2px solid #3A315F;
+  border-radius: 0;
+}
+
+/*
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │     SECTION MOEDAS E PORQUINHO                                       │
+  └──────────────────────────────────────────────────────────────────────┘
+  */
+
+  section.moedasEporquinho {
+    background-color: var(--uni-bg-creme);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 300px;
+    margin-bottom: -48px;
+  }
+
+  img.imgMoedasEporquinho {
+    width: 266px;
+    height: 136px;
+    margin-right: 130px;
+  }
+
+
+
+  /* PROGRESS BAR*/
+  .progress{
+    width: 450px;
+    height: 37px;
+    border: 3px solid var(--uni-bg-roxo);
+    border-radius: 0;
+  }
+
+  .progress-bar{
+    background-color: #E2B77A;
+    width: 0%;
+  }
+
+
+  #exampleModalCenter{
+    top: 200px;
+  }
+
+  @media (min-width: 576px){
+    .modal-dialog {
+      max-width: 1110px;
+      margin: 1.75rem auto;
+  }
+}
+
+@media (min-width: 1400px){
+  #exampleModalCenter{
+    top: 325px;
+  }
+}

@@ -1,0 +1,93 @@
+@media print{
+  body *{
+    visibility: hidden;
+  }
+
+  html,body{
+    height:100%; 
+    margin: 0 !important; 
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  #printTable, #printTable *{
+    visibility: visible;
+  }
+
+  #printTable{
+    left: 85px;
+    top: 50px;
+    position: absolute;
+    max-height: 100%;
+    overflow: hidden;
+    page-break-after: always;
+  }
+}
+
+
+div.tabela {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+table {
+  width: 890px;
+}
+
+img.imgGabaritoCerto, img.imgGabaritoErrado {
+  width: 26px;
+  height: 26px;
+}
+
+tr {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+tr.trBorder {
+  border-bottom: 3px solid #E2B77A;
+}
+tr.trBorder:last-child{
+  border: 0;
+}
+
+th {
+  font-size: 16pt;
+  font-weight: 800;
+  background-color: #494672;
+  color: #FFFFFF;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th.thAcerto, td.tdAcerto {
+  text-align: center;
+  width: 180px;
+  padding: 20px;
+  padding-left: 35px;
+}
+
+th.thConteudo, td.tdConceito {
+  width: 200px;
+}
+
+th.thRespostaCorreta, td.tdRespostaCerta {
+  /* width: 100%; */
+  justify-content: left;
+}
+
+td.tdConceito {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+section.botoesImprimirEContinuar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 70px;
+}

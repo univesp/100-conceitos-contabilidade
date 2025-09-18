@@ -1,0 +1,161 @@
+input[type="radio"]{
+  cursor: pointer
+}
+
+p.pIntroducaoAsQuestoes {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 19pt;
+  font-weight: bold;
+  color: var(--uni-bg-roxo);
+  margin-bottom: 0;
+  padding-top: 110px;
+}
+
+p.subtituloPerguntas {
+  font-size: 17pt;
+  text-align: center;
+  color: var(--uni-bg-roxo);
+  margin-bottom: 0;
+}
+
+div.ilustraEalternativas{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 3px solid #494672;
+  padding: 50px;
+  margin: -50px auto 0 auto;
+  border-radius: 10px;
+  min-height: 400px;
+  background-color: #FAEDE0;
+}
+
+div.alternativas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#conceitoArea{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+div.textoBlocoConceitoCentro {
+  font-family: 'Josefin Sans';
+  background-color: var(--uni-bg-roxo);
+  color: #F2F2F2;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38pt;
+  max-width: 850px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  /* border: 2px solid; */
+  box-shadow: 
+  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
+      inset 0 0 0 2px #E2B77A,
+      0 0 0 14px var(--uni-bg-roxo);
+  word-break: normal;
+  white-space: normal;
+  min-height: 100px;
+  padding: 0 90px;
+}
+
+div.divAlternativasQuestao {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+div.numeroDaAlternativa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAEDE0;
+  color: #000000;
+  padding: 15px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+div.alternativa {
+  font-family: 'Open Sans';
+  font-size: 14pt;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  width: 480px;
+  cursor: pointer;
+  display: flex;
+  box-shadow: 2px 3px 2px rgba(0,0,0,.5);
+}
+
+.alternativasNumeros{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.alternativasNumeros:nth-child(2), .alternativasNumeros:nth-child(3){
+  margin-top: 20px;
+}
+
+.botao-avancar{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-avancar > button{
+  outline: none;
+  border: 0;
+  background-color: #494672;
+  color: #FFF;
+  font-size: 22px;
+  border-radius: 3px;
+  padding: 10px 5px;
+  width: 250px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.label-texto-alternativa{
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.isHidden{
+  display: none;
+}
+
+.ilustra-questoes{
+  display: flex;
+  justify-content: center;
+}
+
+.ilustra-questoes > img{
+  width: 130%;
+}
+
+.questao-certa-text-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.questao-certa-text-container > p{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
